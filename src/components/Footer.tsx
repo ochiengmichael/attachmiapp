@@ -23,7 +23,7 @@ export function Footer({ setView }: FooterProps) {
                 <Paperclip className="h-4 w-4" />
               </div>
               <span className="font-display font-bold text-white">
-                Attach<span className="text-indigo-400">ME</span>
+                Attach<span className="text-indigo-400">Mee</span>
               </span>
             </div>
             <p className="text-xs text-slate-400 max-w-sm leading-relaxed">
@@ -89,8 +89,7 @@ export function Footer({ setView }: FooterProps) {
         </div>
 
         <div className="mt-8 border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-[11px] text-slate-500">&copy; {new Date().getFullYear()} AttachME Inc. Built with Node.js, Express & React.</p>
-          <p className="text-[11px] text-slate-600">Secured via JWT & Industry-Grade Cryptography</p>
+          <p className="text-[11px] text-slate-500">&copy; {new Date().getFullYear()} AttachMee Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>

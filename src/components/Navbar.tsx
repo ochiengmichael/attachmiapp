@@ -58,14 +58,14 @@ export function Navbar({ user, currentView, setView, onLogout }: NavbarProps) {
         {/* Brand Logo */}
         <div 
           onClick={() => setView('home')} 
-          className="flex cursor-pointer items-center space-x-2.5 text-xl font-bold tracking-tight text-indigo-400"
+          className="flex cursor-pointer items-center space-x-2.5 text-xl font-bold tracking-tight text-emerald-400"
           id="nav-logo"
         >
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-indigo-600 text-white shadow-lg shadow-indigo-500/20">
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-600 text-white shadow-lg shadow-emerald-500/20">
             <Paperclip className="h-5 w-5" />
           </div>
           <span className="font-display font-bold text-white">
-            Attach<span className="text-indigo-400">ME</span>
+            Attach<span className="text-emerald-400">Mee</span>
           </span>
         </div>
 

@@ -397,25 +397,6 @@ export function AuthPage({ initialTab, setView, onLoginSuccess }: AuthPageProps)
                 </button>
               </p>
             )}
-            
-            {/* Quick Demo Preloaded logins showcase */}
-            <div className="mt-6 rounded-2xl border border-white/5 bg-white/[0.01] p-4 text-left">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-slate-500 block mb-2 font-mono">Sandbox Test Accounts</span>
-              <div className="space-y-1.5 text-[10.5px] text-slate-400">
-                <div className="flex justify-between">
-                  <span>🎓 Student: <strong className="text-slate-100 font-medium">student@harvard.edu</strong></span>
-                  <span className="text-slate-650 font-mono">password123</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>💼 Recruiter: <strong className="text-slate-100 font-medium">recruiter@microsoft.com</strong></span>
-                  <span className="text-slate-650 font-mono">password123</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>🛡️ Chief Admin: <strong className="text-slate-100 font-medium">admin@attachme.com</strong></span>
-                  <span className="text-slate-650 font-mono">admin123</span>
-                </div>
-              </div>
-            </div>
           </div>
 
         </div>

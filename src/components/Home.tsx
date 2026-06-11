@@ -42,7 +42,7 @@ export function Home({ setView, setSearchFilters }: HomeProps) {
             Get Attached to Your Next <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-400 to-indigo-300 drop-shadow-[0_2px_10px_rgba(99,102,241,0.25)]">Career Milestone</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-xs sm:text-sm text-slate-400 leading-relaxed">
-            AttachME facilitates industrial attachments, internships, and career placements. Find verified employers looking for students and job seekers alike.
+            AttachMee facilitates industrial attachments, internships, and career placements. Find verified employers looking for students and job seekers alike.
           </p>
 
           {/* Search Bar Form */}
@@ -258,7 +258,7 @@ export function Home({ setView, setSearchFilters }: HomeProps) {
           
           <h2 className="text-2xl font-light tracking-tight text-white sm:text-3xl font-display">Ready to secure your role?</h2>
           <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm text-slate-350 leading-relaxed">
-            Create an AttachME account as a Student, Job Seeker, or Enterprise Recruiter today. Start exploring hundreds of opportunities.
+            Create an AttachMee account as a Student, Job Seeker, or Enterprise Recruiter today. Start exploring hundreds of opportunities.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <button 
